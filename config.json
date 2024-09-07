@@ -1,0 +1,48 @@
+{
+  "assemblies": [
+    {
+      "name": "grch38_compressed.fna",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "grch38_compressed.fna-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "./grch38_compressed.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "./grch38_compressed.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "GenCode v46",
+      "name": "GenCode v46",
+      "category": [
+        "gencode"
+      ],
+      "assemblyNames": [
+        "grch38_compressed.fna"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "./tracks/gencode.v46.annotation.gff3"
+        }
+      }
+    }
+
+
+  ]
+}
