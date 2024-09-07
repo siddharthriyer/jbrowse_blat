@@ -1,5 +1,5 @@
 # BLAT + JBrowse
-Code and instructions for using locally hosted JBrowse2 and finding regions by web-based blat query
+Code and instructions for using locally hosted JBrowse2 and finding/viewing regions by web-based BLAT query
 
 # Instructions
 
