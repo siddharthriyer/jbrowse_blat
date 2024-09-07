@@ -24,7 +24,7 @@ I have detailed instructions below for setting up the necessary software on a co
         npm install npx
         npm install -g @jbrowse/cli
 
-5. Make a folder called genome_viewing. Navigate to this folder in terminal (replace /path/to/genome_viewing with the real path, and install JBrowse 2.
+5. Make a folder called genome_viewing and install JBrowse 2 inside.
        
 
         mkdir genome_viewing && cd genome_viewing
