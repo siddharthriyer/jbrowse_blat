@@ -1,7 +1,7 @@
 # BLAT + JBrowse
 This repository has code and instructions for using locally hosted JBrowse2 and finding/viewing genomic regions by web-based BLAT query.
 
-After setting up the necessary software and files, you should be able to run a simple python script to see and explore annotated genomic locations (in the human genome) for the BLAT alignment results of a given query sequence. I personally JBrowse2 to be prettier and far nicer for looking around the genome than the UCSC browser, but unfortunately it doesn't normally have the option to do sequence searches - hence this repository.
+After setting up the necessary software and files, you should be able to run a simple python script to see and explore annotated genomic locations (in the human genome) for the BLAT alignment results of a given query sequence. I personally find JBrowse2 to be prettier and far nicer for looking around the genome than the UCSC browser, but unfortunately it doesn't normally have the option to do sequence searches - hence this repository.
 
 # Installation Instructions
 
